@@ -2,28 +2,21 @@
 
 ### Index
 
-Overview
-[Vision](#vision)
-Goals
-Features
-Functional Requirements
-Integration
-Notifications
-Logging
-Non-Functional Requirements
-Actors
-Use Cases
+- [Vacation Tracking System (VTS)](#vacation-tracking-system-vts)
+- [Index](#index)
+- [Overview](#overview)
+  - [Domain](#domain)
+  - [Vision](#vision)
+  - [Goals](#goals)
+  - [Functional Requirements](#functional-requirements)
+  - [Non-Functional Requirements](#non-functional-requirements)
+  - [Constraints](#constraints)
+  - [Assumptions](#assumptions)
+  - [Actors](#actors)
+  - [Use Cases](#use-cases)
+- [Use Case Example: Manage Time](#use-case-example-manage-time)
 
-1. Manage Time
-2. Approve Request
-3. Award Time
-4. Edit Employee Record
-5. Manage Locations
-6. Manage Leave Categories
-7. Override Leave Records
-8. Back Up System Logs
-   Constraints
-   Assumptions
+---
 
 ### Overview
 
