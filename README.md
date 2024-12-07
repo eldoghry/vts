@@ -4,7 +4,7 @@
 
 #### Domain
 
-Managers struggle to effectively manage and stay aware of their employees' vacation schedules.
+## Managers struggle to effectively manage and stay aware of their employees' vacation schedules.
 
 #### Vision
 
@@ -15,6 +15,8 @@ The organization aims to develop a Vacation Tracking System (VTS) to streamline 
 - Managers the tools to efficiently approve and track employee leave requests.
 
 - HR and admin staff with comprehensive control and override capabilities for exceptional cases.
+
+---
 
 #### Goals
 
@@ -30,10 +32,9 @@ The organization aims to develop a Vacation Tracking System (VTS) to streamline 
 
 - Employees can:
 
-      - Request vacation, sick, and personal time off.
-
-      - View their leave balances and past requests (up to 18 months in the future and 6 months in the past).
-      - Edit or withdraw pending requests and cancel approved ones.
+  - Request vacation, sick, and personal time off.
+  - View their leave balances and past requests (up to 18 months in the future and 6 months in the past).
+  - Edit or withdraw pending requests and cancel approved ones.
 
 - Managers can:
 
@@ -62,3 +63,5 @@ The organization aims to develop a Vacation Tracking System (VTS) to streamline 
 
 - Logging:
   - Tracks all system transactions, including overrides and rule violations.
+
+---
