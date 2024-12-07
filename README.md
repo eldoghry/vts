@@ -4,7 +4,9 @@
 
 #### Domain
 
-## Managers struggle to effectively manage and stay aware of their employees' vacation schedules.
+Managers struggle to effectively manage and stay aware of their employees' vacation schedules.
+
+---
 
 #### Vision
 
