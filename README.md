@@ -67,3 +67,17 @@ The organization aims to develop a Vacation Tracking System (VTS) to streamline 
   - Tracks all system transactions, including overrides and rule violations.
 
 ---
+
+#### Non-Functional Requirements
+
+- **User Experience:**
+  The interface should be intuitive, easy to use, and unified for employees and managers.
+
+- **Rules Compliance:**
+  Enforce HR-defined vacation rules based on employee work location and company policies.
+
+- **Consistency:**
+  All employees work 8-hour days; time is tracked accordingly.
+
+- **Scalability:**
+  Designed to handle current and future employee growth.
