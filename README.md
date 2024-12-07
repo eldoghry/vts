@@ -1,6 +1,33 @@
 ### Vacation Tracking System (VTS)
 
-### Use Case
+### Index
+
+Overview
+[Vision](#vision)
+Goals
+Features
+Functional Requirements
+Integration
+Notifications
+Logging
+Non-Functional Requirements
+Actors
+Use Cases
+
+1. Manage Time
+2. Approve Request
+3. Award Time
+4. Edit Employee Record
+5. Manage Locations
+6. Manage Leave Categories
+7. Override Leave Records
+8. Back Up System Logs
+   Constraints
+   Assumptions
+
+### Overview
+
+The Vacation Tracking System (VTS) is a web-based application designed to streamline the management of vacation time, sick leave, and personal time off for employees and managers. It aims to improve internal business operations by automating leave management processes and providing intuitive tools for all actors involved.
 
 #### Domain
 
