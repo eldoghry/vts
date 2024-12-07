@@ -147,6 +147,10 @@ The organization aims to develop a Vacation Tracking System (VTS) to streamline 
 
 #### Use Cases
 
+![img](https://drive.google.com/uc?id=10mRuk9pdAwl_Fp9POcwoVCTC7zfQH4jI)
+
+The following use case diagram show that there are 8 use cases
+
 1- **Manage Time (Primary Use Case):**
 Employees request or view vacation time and leave.
 
