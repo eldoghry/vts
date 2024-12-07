@@ -156,6 +156,7 @@ Administrators archive system transaction logs.
 ### Use Case Example: Manage Time
 
 **Actor:** Employee
+
 **Goal:** Submit a new vacation request.
 
 **Preconditions:**
