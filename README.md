@@ -219,3 +219,7 @@ Administrators archive system transaction logs.
 - **_Edit Pending Request:_**
 
   Employee modifies the details of a pending request.
+
+Below is sequence diagram for mange time use case
+
+![img](https://drive.google.com/uc?id=1DAK6p2mMvcE95s8FsMys7dLGXY9XpkrM)
