@@ -124,3 +124,31 @@ The organization aims to develop a Vacation Tracking System (VTS) to streamline 
 - Manages technical resources, backups, and logs.
 
 ---
+
+#### Use Cases
+
+1- **Manage Time (Primary Use Case):**
+Employees request or view vacation time and leave.
+
+2- **Approve Request:**
+Managers review and respond to leave requests.
+
+3- **Award Time:**
+Managers grant additional leave time within limits.
+
+4-**Edit Employee Record:**
+HR clerks modify employee details, allowances, or leave rules.
+
+5- **Manage Locations:**
+HR clerks handle location-specific policies and restrictions.
+
+6- **Manage Leave Categories:**
+HR clerks manage leave types and associated rules.
+
+7- **Override Leave Records:**
+HR clerks override automated decisions while maintaining logs.
+
+8- **Back Up System Logs:**
+Administrators archive system transaction logs.
+
+---
