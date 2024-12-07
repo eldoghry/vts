@@ -81,3 +81,46 @@ The organization aims to develop a Vacation Tracking System (VTS) to streamline 
 
 - **Scalability:**
   Designed to handle current and future employee growth.
+
+---
+
+#### Constraints
+
+- The system uses existing intranet hardware and middleware.
+- All actions must adhere to HR-defined rules and policies.
+- Managers and employees share a unified home screen for consistency.
+
+---
+
+#### Assumptions
+
+- The HR department owns and maintains all leave policies and validation rules.
+
+- Employee credentials in the portal are reliable for authentication and role identification.
+
+- Employees and managers understand basic navigation of the portal.
+
+---
+
+#### Actors
+
+**_Employee:_**
+
+- Manages their own leave.
+- Submits, withdraws, or edits vacation requests.
+
+**_Manager:_**
+
+- Approves or denies leave requests.
+- Awards additional leave (comp time).
+
+**_HR Clerk:_**
+
+- Manages employee records, rules, and overrides.
+- Ensures the system reflects updated policies.
+
+**_System Administrator:_**
+
+- Manages technical resources, backups, and logs.
+
+---
