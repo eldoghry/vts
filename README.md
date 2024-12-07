@@ -15,6 +15,7 @@
   - [Actors](#actors)
   - [Use Cases](#use-cases)
 - [Use Case Example: Manage Time](#use-case-example-manage-time)
+- [Links \& Reference](#links--reference)
 
 ---
 
@@ -226,6 +227,6 @@ Below is sequence diagram for mange time use case
 
 ---
 
-Links & Reference
+### Links & Reference
 
 - [Diagrams](https://app.diagrams.net/#G1mJUx4L7VJeDy99Ff2yqsFeGfKAYl6axi#%7B%22pageId%22%3A%22_BaTuaqoY-boYIiUupAF%22%7D)
