@@ -249,7 +249,9 @@ Below is sequence diagram for mange time use case
 
 - check if the employee has a positive balance in the selected leave category, if not -> display error message
 - validate request is meet HR rules, if not -> display error message
-- if valid, the request is saved, and an email is sent to the manager for approval.
+- if valid, the request is saved, deduct employee balance and an email is sent to the manager for approval.
+
+7- return back to employee home page with a success message.
 
 ### Links & Reference
 
