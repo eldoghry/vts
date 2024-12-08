@@ -230,7 +230,7 @@ Below is sequence diagram for mange time use case
 
 ### Pseudocode
 
-![img](https://drive.google.com/uc?id=1eetRglGfOLrhBVolgHJwUaDGLXooESgC)
+![img](https://drive.google.com/uc?id=1vyTtZ7m31UX1DBNiTXqVAds1yb5SaIvF)
 
 1- Employee accesses the VTS through the intranet portal.
 
