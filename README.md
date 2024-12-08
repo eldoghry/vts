@@ -223,7 +223,7 @@ Administrators archive system transaction logs.
 
 Below is sequence diagram for mange time use case
 
-![img](https://drive.google.com/uc?id=1DAK6p2mMvcE95s8FsMys7dLGXY9XpkrM)
+![img](https://drive.google.com/uc?id=1rEhvxkAycneZ-iCrOzEZmT3b9V1N6W83)
 
 ---
 
