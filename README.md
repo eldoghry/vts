@@ -15,6 +15,7 @@
   - [Actors](#actors)
   - [Use Cases](#use-cases)
 - [Use Case Example: Manage Time](#use-case-example-manage-time)
+- [Pseudocode](#pseudocode)
 - [Links \& Reference](#links--reference)
 
 ---
@@ -226,6 +227,29 @@ Below is sequence diagram for mange time use case
 ![img](https://drive.google.com/uc?id=1rEhvxkAycneZ-iCrOzEZmT3b9V1N6W83)
 
 ---
+
+### Pseudocode
+
+![img](https://drive.google.com/uc?id=1eetRglGfOLrhBVolgHJwUaDGLXooESgC)
+
+1- Employee accesses the VTS through the intranet portal.
+
+2- Employee logs in with their credentials.
+
+3- if the employee
+
+- is authenticated -> the system retrieves their leave balances and previous requests.
+- else -> display error message
+
+4- employee selects a create leave request link and enter leave details.
+
+5- employee submits the request.
+
+6- the system validates the request:
+
+- check if the employee has a positive balance in the selected leave category, if not -> display error message
+- validate request is meet HR rules, if not -> display error message
+- if valid, the request is saved, and an email is sent to the manager for approval.
 
 ### Links & Reference
 
