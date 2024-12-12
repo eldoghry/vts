@@ -16,6 +16,8 @@
   - [Use Cases](#use-cases)
   - [Use Cases Examples](#use-cases-examples)
 - [Pseudocode](#pseudocode)
+- [Data Model](#data-model)
+- [UI](#ui)
 - [Links \& Reference](#links--reference)
 
 ---
@@ -210,6 +212,20 @@ Administrators archive system transaction logs.
 - if valid, the request is saved, deduct employee balance and an email is sent to the manager for approval.
 
 7- return back to employee home page with a success message.
+
+### Data Model
+
+![img](https://drive.google.com/uc?id=1z7x_FME9RGtWtBajkAQj8eHBypn8HNgn)
+
+### UI
+
+**Employee UI**
+
+![img](https://drive.google.com/uc?id=1ShLLsNyA2blZ_GaY99PEFqzVet0FV6qq)
+
+**Manager UI**
+
+![img](https://drive.google.com/uc?id=1ti8JsA4_4zO3ivfYGmxbbzgWFl3NegqO)
 
 ### Links & Reference
 
