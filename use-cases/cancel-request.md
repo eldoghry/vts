@@ -29,13 +29,11 @@ The employee selects an approved request that is either future-dated or within t
 
 4- _Confirmation and Explanation:_
 
-    - **Future-Dated Request:**
-        The system prompts the employee to confirm the cancellation.
+**_Future-Dated Request:_**
+The system prompts the employee to confirm the cancellation.
 
-    - **Past-Dated Request:**
-        The system prompts the employee to:
-          - Confirm the cancellation.
-          - Provide a brief explanation for the cancellation.
+**_Past-Dated Request:_**
+The system prompts the employee to: - Confirm the cancellation. - Provide a brief explanation for the cancellation.
 
 **System Processing:**
 
