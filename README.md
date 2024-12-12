@@ -14,7 +14,7 @@
   - [Assumptions](#assumptions)
   - [Actors](#actors)
   - [Use Cases](#use-cases)
-- [Use Case Example: Manage Time](#use-case-example-manage-time)
+  - [Use Cases Examples](#use-cases-examples)
 - [Pseudocode](#pseudocode)
 - [Links \& Reference](#links--reference)
 
@@ -177,54 +177,12 @@ HR clerks override automated decisions while maintaining logs.
 8- **Back Up System Logs:**
 Administrators archive system transaction logs.
 
----
+#### Use Cases Examples
 
-### Use Case Example: Manage Time
-
-**Actor:** Employee
-
-**Goal:** Submit a new vacation request.
-
-**Preconditions:**
-
-- Employee is authenticated through the intranet portal.
-- Employee has the privileges to manage leave.
-
-**Main Flow:**
-
-1- Employee accesses the VTS through the intranet portal.
-
-2- The system retrieves and displays their leave balances and previous requests.
-
-3- Employee selects a leave category with a positive balance.
-
-4- The system provides a visual calendar for selecting dates and hours.
-
-5- Employee enters details, including a title and description, and submits the request.
-
-6- The system validates the request:
-
-- If valid, the request is saved, and an email is sent to the manager for approval.
-
-- If invalid, errors are displayed, allowing the employee to correct them.
-
-**Alternate Flows:**
-
-- **_Withdraw Request:_**
-
-  Employee cancels a pending request, and the manager is notified.
-
-- **_Cancel Approved Request:_**
-
-  Employee cancels a previously approved request with notification to the manager.
-
-- **_Edit Pending Request:_**
-
-  Employee modifies the details of a pending request.
-
-Below is sequence diagram for mange time use case
-
-![img](https://drive.google.com/uc?id=1rEhvxkAycneZ-iCrOzEZmT3b9V1N6W83)
+- [Manage vacation time](./use-cases/submit-request.md)
+- [Edit Pending Vacation time request](./use-cases/edit-request.md)
+- [Cancel vacation request](./use-cases/cancel-request.md)
+- [Withdraw pending vacation time request](./use-cases/withdraw-request.md)
 
 ---
 

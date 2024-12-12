@@ -81,8 +81,3 @@ The employee selects an approved request that is either future-dated or within t
 ---
 
 ### Sequence Diagram
-
----
-
-submit
-https://drive.google.com/file/d/1sBTc6v7n3V_qbyZ3dUd1nHE2tv5HeSTb/view?usp=sharing
