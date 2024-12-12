@@ -33,7 +33,7 @@ The VTS displays a summary of the employee's vacation time requests, including:
 
 **System Processing:**
 
-_Confirmed Withdrawal:_
+**_Confirmed Withdrawal:_**
 
 - The pending request is removed from the manager's approval queue.
 

@@ -14,14 +14,15 @@ To enable an employee to cancel an approved vacation time request.
 
 1- _Access VTS:_
 
-    - The employee accesses the VTS home page through the intranet portal.
+The employee accesses the VTS home page through the intranet portal.
 
 2- _Review Requests:_
 
-    The VTS displays a summary of the employee's vacation time requests, including:
+The VTS displays a summary of the employee's vacation time requests, including:
 
-    - Outstanding balance for each time category
-    - Status of all active requests for the past 6 months and future 18 months
+- Outstanding balance for each time category
+
+- Status of all active requests for the past 6 months and future 18 months
 
 3- _Select Request for Cancellation:_
 
@@ -29,15 +30,17 @@ The employee selects an approved request that is either future-dated or within t
 
 4- _Confirmation and Explanation:_
 
-**_Future-Dated Request:_**
-The system prompts the employee to confirm the cancellation.
+- **_Future-Dated Request:_**
 
-**_Past-Dated Request:_**
-The system prompts the employee to: - Confirm the cancellation. - Provide a brief explanation for the cancellation.
+  - The system prompts the employee to confirm the cancellation.
+
+- **_Past-Dated Request:_** The system prompts the employee to:
+  - Confirm the cancellation.
+  - Provide a brief explanation for the cancellation.
 
 **System Processing:**
 
-Confirmed Cancellation:
+**_Confirmed Cancellation:_**
 
 - An email notification is sent to the employee's manager.
   The request status is updated to "Canceled."
@@ -81,8 +84,5 @@ Confirmed Cancellation:
 
 ---
 
-https://drive.google.com/file/d/1FNDZvzpyhVU-JfwZtah8fHce0oFDl7Ou/view?usp=sharing,
-
-https://drive.google.com/file/d/1X14bvKYikYVdNWG2WpiyWZOWoQtfs38R/view?usp=sharing,
-
+submit
 https://drive.google.com/file/d/1sBTc6v7n3V_qbyZ3dUd1nHE2tv5HeSTb/view?usp=sharing
