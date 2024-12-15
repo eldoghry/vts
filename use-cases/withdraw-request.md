@@ -71,6 +71,12 @@ The VTS displays a summary of the employee's vacation time requests, including:
 
 ### Sequence Diagram
 
+![img](https://drive.google.com/uc?id=1s7jeMQJTbGTHdbVSLH6VuGuG5dK7tSvz)
+
+---
+
+### Pseudocode
+
 ```
 1. **ACCESS VTS:**
    IF employee accesses VTS through intranet portal:

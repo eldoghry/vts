@@ -83,6 +83,14 @@ _System Error:_
 
 ---
 
+### Sequence Diagram
+
+![img](https://drive.google.com/uc?id=1V74FC55wIdYEOMDeifNWPDEo4tCKLqlV)
+
+---
+
+### Pseudocode
+
 ```
 1. **ACCESS VTS:**
    IF employee accesses VTS through intranet portal:

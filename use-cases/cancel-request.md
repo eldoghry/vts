@@ -82,6 +82,10 @@ The employee selects an approved request that is either future-dated or within t
 
 ### Sequence Diagram
 
+![img](https://drive.google.com/uc?id=1ufSf8j_c_-pczPN2k-JTDd-TLXSXSMCK)
+
+### Pseudocode
+
 ```
 1. ACCESS VTS:
    IF employee accesses VTS through intranet portal:
