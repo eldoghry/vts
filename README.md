@@ -14,6 +14,7 @@
   - [Assumptions](#assumptions)
   - [Actors](#actors)
   - [Use Cases](#use-cases)
+  - [Flow Charts](#flow-charts)
   - [Use Cases Examples](#use-cases-examples)
 - [Data Model](#data-model)
 - [UI](#ui)
@@ -177,6 +178,16 @@ HR clerks override automated decisions while maintaining logs.
 
 8- **Back Up System Logs:**
 Administrators archive system transaction logs.
+
+---
+
+#### Flow Charts
+
+You can find below high-level flowchart description for Manager and Employee journey.
+
+![img](https://drive.google.com/uc?id=14xvAym9RXShDin2v2ilC0BNyl4FdJ9YX)
+
+---
 
 #### Use Cases Examples
 
