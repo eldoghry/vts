@@ -185,7 +185,7 @@ Administrators archive system transaction logs.
 
 You can find below high-level flowchart description for Manager and Employee journey.
 
-![img](https://drive.google.com/uc?id=14xvAym9RXShDin2v2ilC0BNyl4FdJ9YX)
+![img](https://drive.google.com/uc?id=1AXeXeXMni8jBlkX37hXZgmClGsR5Uvnd)
 
 ---
 
