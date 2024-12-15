@@ -83,4 +83,63 @@ _System Error:_
 
 ---
 
-### Sequence Diagram
+```
+1. **ACCESS VTS:**
+   IF employee accesses VTS through intranet portal:
+       IF employee is authenticated and authorized:
+           Display VTS home page
+       ELSE:
+           Deny access with "Unauthorized Access" error
+           EXIT
+
+2. **REVIEW REQUESTS:**
+   Display summary of:
+       - Outstanding balance for each vacation time category
+       - Status of all active requests for the past 6 months and future 18 months
+
+3. **SELECT REQUEST FOR EDITING:**
+   Employee selects a request:
+       IF request is not found OR invalid:
+           Display "Request Not Found" error
+           RETURN to previous screen
+       ELSE:
+           IF request status is "Pending":
+               Proceed to editable view
+           ELSE:
+               Display error for invalid selection
+               RETURN to previous screen
+
+4. **EDIT REQUEST DETAILS:**
+   Display editable fields for the selected request:
+       - Request title
+       - Request description
+       - Start and end dates
+       - Time off type
+
+   Employee chooses one of the following actions:
+       a. **Submit Changes:**
+           - Employee modifies fields and submits changes
+           - Validate changes:
+               IF all fields are valid:
+                   Update the request with new details
+                   Notify employee's manager of changes
+                   RETURN to home page with updated summaries
+               ELSE:
+                   Display error messages and highlight invalid fields
+                   RETURN to edit screen
+
+       b. **Withdraw Request:**
+           - Employee selects "Withdraw Request" option
+           - System prompts for confirmation
+               IF employee confirms withdrawal:
+                   Remove request from manager's approval queue
+                   Notify employee's manager of withdrawal
+                   RETURN to home page with updated summaries
+               ELSE:
+                   RETURN to edit screen without changes
+
+5. **RETURN TO HOME PAGE:**
+   Display updated summaries reflecting changes in:
+       - Employee's vacation time balance
+       - Request status
+```
