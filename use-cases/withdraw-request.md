@@ -70,3 +70,51 @@ The VTS displays a summary of the employee's vacation time requests, including:
 ---
 
 ### Sequence Diagram
+
+![img](https://drive.google.com/uc?id=1s7jeMQJTbGTHdbVSLH6VuGuG5dK7tSvz)
+
+---
+
+### Pseudocode
+
+```
+1. **ACCESS VTS:**
+   IF employee accesses VTS through intranet portal:
+       IF employee is authenticated and authorized:
+           Display VTS home page
+       ELSE:
+           Deny access with "Unauthorized Access" error
+           EXIT
+
+2. **REVIEW REQUESTS:**
+   Display summary of:
+       - Outstanding balance for each vacation time category
+       - Status of all active requests for the past 6 months and future 18 months
+
+3. **SELECT REQUEST FOR WITHDRAWAL:**
+   Employee selects a request:
+       IF request is not found OR invalid:
+           Display "Request Not Found" error
+           RETURN to previous screen
+       ELSE:
+           IF request status is "Pending":
+               Proceed to withdrawal confirmation
+           ELSE:
+               Display error for invalid selection
+               RETURN to previous screen
+
+4. **CONFIRMATION OF WITHDRAWAL:**
+   System prompts employee to confirm withdrawal:
+       IF employee confirms withdrawal:
+           - Remove request from manager's approval queue
+           - Update request status to "Withdrawn"
+           - Send email notification to employee's manager
+           RETURN to VTS home page with updated summaries
+       ELSE:
+           RETURN to previous screen without changes
+
+5. **RETURN TO HOME PAGE:**
+   Display updated summaries reflecting changes in:
+       - Employee's vacation time balance
+       - Request status
+```

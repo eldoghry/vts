@@ -81,3 +81,61 @@ The employee selects an approved request that is either future-dated or within t
 ---
 
 ### Sequence Diagram
+
+![img](https://drive.google.com/uc?id=1ufSf8j_c_-pczPN2k-JTDd-TLXSXSMCK)
+
+### Pseudocode
+
+```
+1. ACCESS VTS:
+   IF employee accesses VTS through intranet portal:
+       IF employee is authenticated and authorized:
+           Display VTS home page
+       ELSE:
+           Deny access with an "Unauthorized Access" error
+           EXIT
+
+2. REVIEW REQUESTS:
+   Display summary of:
+       - Outstanding balance for each vacation time category
+       - Status of all active requests for the past 6 months and future 18 months
+
+3. SELECT REQUEST FOR CANCELLATION:
+   Employee selects a request:
+       IF request is not found OR invalid:
+           Display "Request Not Found" error
+           RETURN to previous screen
+       ELSE:
+           IF request is:
+               - Future-dated OR
+               - Within the past 5 business days:
+                   Proceed to cancellation confirmation
+               ELSE:
+                   Display error for invalid selection
+                   RETURN to previous screen
+
+4. CONFIRMATION AND EXPLANATION:
+   IF request is future-dated:
+       Prompt employee to confirm cancellation
+   ELSE IF request is past-dated:
+       Prompt employee to:
+           - Confirm cancellation
+           - Provide a brief explanation for the cancellation
+
+   SYSTEM PROCESSING:
+       IF employee confirms cancellation:
+           - Send email notification to employee's manager
+           - Update request status to "Canceled"
+           - Return time allowances used for the request to employee's balance
+           - Update displayed summaries
+           RETURN to VTS home page
+       ELSE:
+           - Return to previous screen with no changes
+           RETURN to VTS home page
+
+5. RETURN TO HOME PAGE:
+   Display updated summaries reflecting changes in:
+       - Employee's vacation time balance
+       - Request status
+
+```
