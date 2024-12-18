@@ -229,4 +229,4 @@ Administrators archive system transaction logs.
 
 ### Links & Reference
 
-- [Diagrams](https://app.diagrams.net/#G1mJUx4L7VJeDy99Ff2yqsFeGfKAYl6axi#%7B%22pageId%22%3A%22_BaTuaqoY-boYIiUupAF%22%7D)
+- [Diagrams](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=vts.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1mJUx4L7VJeDy99Ff2yqsFeGfKAYl6axi%26export%3Ddownload)
